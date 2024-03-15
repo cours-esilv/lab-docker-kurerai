@@ -1,0 +1,3 @@
+curl http://localhost:5000/write/test-message
+docker exec -it back-container /bin/bash
+cat path/to/log/file
